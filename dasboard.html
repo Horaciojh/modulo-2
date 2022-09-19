@@ -14,7 +14,8 @@
   <!-- CSS Local -->
   <link rel="stylesheet" href="ASSETS/css/style.css">
 
-  <title>Porfolio Personal</title>
+  <title>Dasboard</title>
+  <link rel="shortcut icon" href="ASSETS/img/Fabicon.png">
 </head>
 
 <body>
@@ -34,16 +35,19 @@
         <!-- Menu colapsable  -->
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav flex-row flex-wrap ms-auto">
-            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-instagram"></i></li>
             <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-facebook"></i></li>
+            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-twitter"></i></li>
+            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-google"></i></li>
+            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-instagram"></i></li>
+            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-linkedin"></i></li>
             <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-github"></i></li>
-            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-linkedin"></i></li><i class="bi bi-pencil-fill btn"></i>
+            <i class="bi bi-pencil-fill btn"></i>
             <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-person-check-fill" type="button"></i>
-            <!-- Button trigger modal -->
-            <!-- <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-person-x-fill" type="button"
+              <!-- Button trigger modal -->
+            <li class="nav-item col-1 col-md-auto p-3"><i class="bi bi-person-x-fill" type="button"
                 data-bs-toggle="modal" data-bs-target="#loguinModal">
               </i>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
@@ -54,34 +58,40 @@
   <div class="container-fluid  banner">
     <div class="row">
       <div class="col ">
-        <img class="img-fluid rounded mx-auto d-block" src="ASSETS/img/template.png" alt="" >
+        <img class="img-fluid rounded mx-auto d-block" src="ASSETS/img/template.png" alt="">
       </div>
-      <i class="bi bi-pencil-fill btn"></i>
+      <i class="bi bi-pencil-fill btn" data-bs-toggle="modal" data-bs-target="#Banner"></i></i><i
+        class="bi bi-trash btn"></i>
     </div>
   </div>
   <!-- Fin Banner -->
 
+  <hr color="black" size="5">
+  
   <!-- Datos Personale -->
-  <section>
-    <hr color="black" size="5">
+  <section>  
     <h3 style="text-align:center; margin-top: 20px;">Datos Persanales</h3>
     <div class="card mb-3 my-3 mx-3" style="max-width:fit-content;">
-
       <div class="row g-0">
         <div class="col-md-4 text-center my-auto">
           <img class="img-fluid rounded-start mx-auto d-block foto-datos" src="ASSETS/img/HoracioDatos.jpg" alt="...">
-          <i class="bi bi-pencil-fill btn"></i>
+          <i class="bi bi-pencil-fill btn" data-bs-toggle="modal" data-bs-target="#Foto"></i><i
+            class="bi bi-trash btn"></i>
         </div>
         <div class="col-md-8 ">
           <div class="card-body">
-            <h5 class="card-title">Datos Personales</h5>
-            <p class="card-text">Herrlein Horacio<i class="bi bi-pencil-fill btn"></i></p>
-            <p class="card-text">Nací el 00 de Mayo de 19xx en Argentina donde actualmente resido<i class="bi bi-pencil-fill btn"></i></p>
-            <p class="card-text">Tengo xx años de edad. <i class="bi bi-pencil-fill btn"></i></p>
-            <p class="card-text">Actualmente resido en la ciudad de Paraná Entre Ríos<i class="bi bi-pencil-fill btn"></i></p>
-            <p class="card-text">Telefono de contacto +54 9 343 51xxxx<i class="bi bi-pencil-fill btn"></i></p>
+            <h5 class="card-title">Datos Personales <i class="bi bi-pencil-fill btn" data-bs-toggle="modal"
+                data-bs-target="#DatosPersonal"></i></h5>
+            <p class="card-text">Herrlein Horacio</p>
+            <p class="card-text">Nací el 00 de Mayo de 19xx en Argentina donde actualmente resido</p>
+            <p class="card-text">Tengo xx años de edad.</p>
+            <p class="card-text">Soy de Nacionalidad Argentina</p>
+            <p class="card-text">Actualmente resido en la ciudad de Paraná Entre Ríos</p>
+            <p class="card-text">Mi Telefono de contacto es +54 9 343 51xxxx
+            </p>
+            <p class="card-text">Mi Email es horaciojh@hotmail.com</p>
             <p class="card-text">Me considero una persona responsable, proactiva, dispuesto a enfrentar nuevos desafios.
-              Con capacidad en la resolucion de conflictos y trabajo en equipo<i class="bi bi-pencil-fill btn"></i></p>
+              Con capacidad en la resolucion de conflictos y trabajo en equipo</p>
           </div>
         </div>
       </div>
@@ -89,53 +99,84 @@
   </section>
   <!-- Fin datos personales -->
 
+  <hr size="5">
+  
   <!-- Datos Academicos -->
   <section>
-    <hr color="black" size="5">
-    <h3 style="text-align:center; margin-top: 20px; ">Datos Academicos</h3>
+    <h3 style="text-align:center; margin-top: 20px; ">Datos Academicos </h3>
     <div class="card mb-3 my-3 mx-3" style="max-width:fit-content;">
-
       <div class="col-md-12">
         <div class="card-body">
-          <h5 class="card-title">Estudios y capacitaciones realizados</h5>
+          <h5 class="card-title">Estudios y capacitaciones realizados <i class="bi bi-pencil-fill btn"
+              data-bs-toggle="modal" data-bs-target="#DatosAcademicos"></i></h5>
           <br>
-          <ul>
-            <li class="card-text">Egrese en 1.993 del Establecimiento Centro Educativo Nivel Secundario Número 63, con
-              el título de “Perito Comercial, especializado en Administración de Empresas”.<i class="bi bi-pencil-fill btn"></i></li>
-            <br>
-            <li class="card-text">Curse 1º y 2º año de la “Facultad de Ciencias Económicas” En la ciudad de Paraná Entre
-              Ríos.<i class="bi bi-pencil-fill btn"></i></li>
-            <br>
-            <li class="card-text">Egrese en el 2.004, del Instituto Argentino de Computación con el título de
-              “Programador en Sistemas de Interfaz Gráfica”.<i class="bi bi-pencil-fill btn"></i></li>
-            <br>
-            <li class="card-text">Cursos de Capacitación realizado por la empresa TIA S. A.: “Calidad de Servicio”,
-              “Manejo y Gestión de Mercadería”, “Recursos Humanos”, “Marketing y Negociación”, “Selección de Personal”,
-              “Mix y Márgenes”.<i class="bi bi-pencil-fill btn"></i></li>
-            <br>
-            <li>Curso dictado por la empresa SELF de “Programa de Management 2003”.<i class="bi bi-pencil-fill btn"></i></li>
-            <br>
-            <li>En curso ultima tres materias “Analista en sistema de la información” en el Instituto Raúl Scalabrini
-              Ortiz - Bs As.<i class="bi bi-pencil-fill btn"></i></li>
-          </ul>
+          <div class="card border-info mb-3">
+            <div class="card-header bg-secondary bg-opacity-25">
+              <h6>Nivel Secundario</h6>
+            </div>
+            <div class="card-body">
+              <blockquote>
+                <p>Egrese en 1.993 del Establecimiento Centro Educativo Nivel Secundario Número 63, con
+                  el título de “Perito Comercial, especializado en Administración de Empresas”.</p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card border-info mb-3">
+            <div class="card-header bg-secondary bg-opacity-25">
+              <h6>Nivel Universitario</h6>
+            </div>
+            <div class="card-body">
+              <blockquote>
+                <p>Curse 1º y 2º año de la “Facultad de Ciencias Económicas” En la ciudad de Paraná Entre
+                  Ríos.</p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card border-info mb-3">
+            <div class="card-header bg-secondary bg-opacity-25">
+              <h6>Cursos y Capacitaciones</h6>
+            </div>
+            <div class="card-body">
+              <blockquote>
+                <ul>
+                  <li class="card-text">Egrese en el 2.004, del Instituto Argentino de Computación con el título de
+                    “Programador en Sistemas de Interfaz Gráfica”.</li>
+                  <br>
+                  <li class="card-text">Cursos de Capacitación realizado por la empresa TIA S. A.: “Calidad de
+                    Servicio”,
+                    “Manejo y Gestión de Mercadería”, “Recursos Humanos”, “Marketing y Negociación”, “Selección de
+                    Personal”,
+                    “Mix y Márgenes”.</li>
+                  <br>
+                  <li>Curso dictado por la empresa SELF de “Programa de Management 2003”.</i>
+                  </li>
+                  <br>
+                  <li>En curso ultima tres materias “Analista en sistema de la información” en el Instituto Raúl
+                    Scalabrini
+                    Ortiz - Bs As.</li>
+                </ul>
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- Fin datos academicos -->
+  
+  <hr color="black" size="5">
 
-  <section>
-    <!-- Experiencia laboral -->
-    <hr color="black" size="5">
-    <h3 style="text-align:center; margin-top: 20px;">Experiencia Laboral</h3>
-
+  <!-- Experiencia laboral -->
+  <section class="card mb-3 my-3 mx-3">
+    <h3 style="text-align:center; margin-top: 20px;">Experiencia Laboral <i class="bi bi-pencil-fill btn"
+        data-bs-toggle="modal" data-bs-target="#ExperienciaLaboral"></i></h3>
     <!-- Tarjetas laborales 1-->
     <div class="accordion mb-5" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <h6>Transporte Mariano Moreno S.R.L<i class="bi bi-pencil-fill btn"></i></h6>
+            <h6>Transporte Mariano Moreno S.R.L</h6>
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -144,15 +185,14 @@
             <div class="card mb-3 my-3 mx-3" style="max-width:fit-content;">
               <div class="row g-0">
                 <div class="col-md-4 text-center my-auto">
-                  <img src="ASSETS/img/Transporte_Mariano_Moreno_Parana.png" class="img-fluid rounded-start" alt="..."><i class="bi bi-pencil-fill btn"></i>
+                  <img src="ASSETS/img/Transporte_Mariano_Moreno_Parana.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body color-card">
-                    <h5 class="card-title">Transporte Mariano Moreno S.R.L<i class="bi bi-pencil-fill btn"></i></h5>
+                    <h5 class="card-title">Transporte Mariano Moreno S.R.L</h5>
                     <p class="card-text">Ingrese en 1.984 a la Empresa de Transporte urbano de Pasajeros “Mariano Moreno
                       S. R. L.” la cual prestaba servicio en la ciudad de Paraná Entre Rios, Argentina. Cumpliendo la
-                      función de chofer, desde la fecha de ingreso hasta 1992.<i class="bi bi-pencil-fill btn"></i></p>
-
+                      función de chofer, desde la fecha de ingreso hasta 1992.</p>
                   </div>
                 </div>
               </div>
@@ -165,7 +205,7 @@
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <h6>TIA S.A<i class="bi bi-pencil-fill btn"></i></h6>
+            <h6>TIA S.A</h6>
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -174,15 +214,15 @@
             <div class="card mb-3 my-3 mx-3" style="max-width:fit-content;">
               <div class="row g-0">
                 <div class="col-md-4 text-center my-auto">
-                  <img src="ASSETS/img/Tia_Supermarket-Logo.svg" class="img-fluid rounded-start" alt="..."><i class="bi bi-pencil-fill btn"></i>
+                  <img src="ASSETS/img/Logo-Tia-SA.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body color-card">
-                    <h5 class="card-title">TIA S.A<i class="bi bi-pencil-fill btn"></i></h5>
+                    <h5 class="card-title">TIA S.A</h5>
                     <p class="card-text">Ingreso en Junio de 1.993, a la Empresa “TIA S. A”, desempeñando las funciones
                       de: Recepcionista de Mercadería, Administrativo, Jefe de Ventas en los sectores non food,
-                      comestibles y productos frescos, en la ciudad de Paraná, Trelew y Resistencia.<i class="bi bi-pencil-fill btn"></i></p>
-
+                      comestibles y productos frescos, en la ciudad de Paraná, Trelew y Resistencia.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -195,7 +235,7 @@
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <h6>Supermercados Norte<i class="bi bi-pencil-fill btn"></i></h6>
+            <h6>Supermercados Norte</h6>
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -204,11 +244,11 @@
             <div class="card mb-3 mx-3" style="max-width:fit-content;">
               <div class="row g-0">
                 <div class="col-md-4 text-center my-auto">
-                  <img src="ASSETS/img/Norte.png" class="img-fluid rounded-start" alt="..."><i class="bi bi-pencil-fill btn"></i>
+                  <img src="ASSETS/img/Norte.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body color-card">
-                    <h5 class="card-title">Supermercados Norte<i class="bi bi-pencil-fill btn"></i></h5>
+                    <h5 class="card-title">Supermercados Norte</h5>
                     <p class="card-text">Posteriormente “TIA S.A.” es adquirida por Supermercados Norte en el cual seguí
                       desempeñando esta tarea, hasta Agosto del 2002 que fui promovido a Gerente de local.
                       Desarrollando tareas Técnicas y Operativas: en la recepción, control, almacenamiento y despacho de
@@ -217,7 +257,7 @@
                       En el desempeño de la función de Management: manejo de personal, organización y coordinación de
                       tareas y funciones, exhibición de mercaderías, precios y ofertas, control y supervisión de líneas
                       de cajas, arqueos, control y administración de gasto, resultados de ejercicios, inventarios,
-                      control y reducción de merma, etc.<i class="bi bi-pencil-fill btn"></i>
+                      control y reducción de merma, etc.
                     </p>
                   </div>
                 </div>
@@ -232,7 +272,7 @@
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              <h6>Carrefour<i class="bi bi-pencil-fill btn"></i></h6>
+              <h6>Carrefour</h6></i>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -241,14 +281,14 @@
               <div class="card mb-3 my-3 mx-3" style="max-width:fit-content;">
                 <div class="row g-0">
                   <div class="col-md-4 text-center my-auto">
-                    <img src="ASSETS/img/carrefour.jpg" class="img-fluid rounded-start" alt="..."><i class="bi bi-pencil-fill btn"></i>
+                    <img src="ASSETS/img/carrefour.jpg" class="img-fluid rounded-start" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body color-card">
-                      <h5 class="card-title">Carrefour<i class="bi bi-pencil-fill btn"></i></h5>
+                      <h5 class="card-title">Carrefour</h5>
                       <p class="card-text">A fines de 1999 Norte comenzó su proceso de fusión con la cadena Carrefour en
-                        la cual sigui desempeñando las miosmas funciones que realizaba en Norte S.A <i class="bi bi-pencil-fill btn"></i></p>
-
+                        la cual sigui desempeñando las miosmas funciones que realizaba en Norte S.A
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -261,7 +301,7 @@
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <h6>Renacer Supermercado Mayorista<i class="bi bi-pencil-fill btn"></i></h6>
+              <h6>Renacer Supermercado Mayorista</h6>
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
@@ -270,15 +310,15 @@
               <div class="card mb-3 mx-3" style="max-width:fit-content;">
                 <div class="row g-0">
                   <div class="col-md-4 text-center my-auto">
-                    <img src="ASSETS/img/Renacer.jpg" class="img-fluid rounded-start " alt="..."><i class="bi bi-pencil-fill btn"></i>
+                    <img src="ASSETS/img/Renacer.jpg" class="img-fluid rounded-start " alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body color-card">
-                      <h5 class="card-title">Renacer Supermercado Mayorista<i class="bi bi-pencil-fill btn"></i></h5>
+                      <h5 class="card-title">Renacer Supermercado Mayorista</h5>
                       <p class="card-text">El 2 de Enero del 2006 ingreso en Basso Representación de la ciudad de Paraná
                         Entre Ríos, desarrollando tareas de recepción de mercadería, carga y control de stock, pedidos a
                         proveedores, actualizaciones de precios y costos, exhibición de mercadería, organización de
-                        tareas y funciones, manejo de personal, etc. <i class="bi bi-pencil-fill btn"></i></p>
+                        tareas y funciones, manejo de personal, etc.</p>
 
                     </div>
                   </div>
@@ -292,7 +332,7 @@
           <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <h6>Transporte Escolar EMOJI<i class="bi bi-pencil-fill btn"></i></h6>
+              <h6>Transporte Escolar EMOJI</h6>
             </button>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
@@ -301,14 +341,14 @@
               <div class="card mb-3 mx-3" style="max-width:fit-content;">
                 <div class="row g-0">
                   <div class="col-md-4 text-center my-auto">
-                    <img src="ASSETS/img/LogoTransporte.jpg" class="img-fluid rounded-start " alt="..."><i class="bi bi-pencil-fill btn"></i>
+                    <img src="ASSETS/img/LogoTransporte.jpg" class="img-fluid rounded-start " alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body color-card">
-                      <h5 class="card-title">Transporte Escolar EMOJI<i class="bi bi-pencil-fill btn"></i></h5>
+                      <h5 class="card-title">Transporte Escolar EMOJI</h5>
                       <p class="card-text">En la actualidad tengo un emprendimiento destinado al traslado de personas y
-                        alumnos a distintos establecimientos educativos y deportivos.<i class="bi bi-pencil-fill btn"></i></p>
-
+                        alumnos a distintos establecimientos educativos y deportivos.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -320,115 +360,113 @@
   </section>
   <!-- Fin Experiencia laboral -->
 
+  <hr color="black" size="5">
+  
   <!-- Barra de habilidades -->
-  <section>
-    <hr color="black" size="5">
-    <div class="card mb-3 my-3 mx-3">
-      <h3 style="text-align:center; margin-top: 20px;">Habilidades</h3>
-      <div class="container mb-5">
-        <div class="row">
-          <div class="col-6">
-            <h5 class="texto-barra">HTML<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 75%">75%</div>
-            </div>
-          </div>
-          <div class="col-6">
-            <h5 class="texto-barra">CSS<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 50%">50%</div>
-            </div>
-          </div>
-        </div>
+  <section class="card mb-3 my-3 mx-3">
 
-        <div class="row mt-3">
-          <div class="col-6">
-            <h5 class="texto-barra">JAVA<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 20%">20%</div>
-            </div>
-          </div>
+    <h3 style="text-align:center; margin-top: 20px;">Habilidades</h3>
+    <h5 class="texto-barra mt-3 mb-2 text-center">MANEJO DE SOFTWARE<i class="bi bi-pencil-fill btn"
+        data-bs-toggle="modal" data-bs-target="#HabilidadesSoftware"></i></h5>
 
-          <div class="col-6">
-            <h5 class="texto-barra">MYSQL<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 40%">40%</div>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-6">
-            <h5 class="texto-barra">WORD PRESS<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 40%">40%</div>
-            </div>
-          </div>
 
-          <div class="col-6">
-            <h5 class="texto-barra">TRABAJO EN EQUIPO<i class="bi bi-pencil-fill btn"></i></h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                style="width: 75%">75%</div>
-            </div>
-          </div>
-        </div>
+    <div class="row d-flex justify-content-center text-center mt-4">
+
+      <div class="col-2">
+        <h6>HTML</h6>
+        <div class="progress-circle progress-90"><span>90</span></div>
+      </div>
+      <div class="col-2">
+        <h6>CSS</h6>
+        <div class="progress-circle progress-75"><span>75</span></div>
+      </div>
+      <div class="col-2">
+        <h6>ANGULAR</h6>
+        <div class="progress-circle progress-30"><span>30</span></div>
+      </div>
+      <div class="col-2">
+        <h6>MYSQL</h6>
+        <div class="progress-circle progress-50"><span>50</span></div>
+      </div>
+      <div class="col-2">
+        <h6>WORDPRESS</h6>
+        <div class="progress-circle progress-35"><span>35</span></div>
+      </div>
+      <div class="col-2">
+        <h6>OFIMATICA</h6>
+        <div class="progress-circle progress-80"><span>80</span></div>
       </div>
     </div>
+
+
+
+    <h5 class="texto-barra mt-3 mb-2 text-center mt-5">MANEJO DE RRHH<i class="bi bi-pencil-fill btn"
+        data-bs-toggle="modal" data-bs-target="#HabilidadesSoftware"></i></h5>
+
+    <div class="row d-flex justify-content-center text-center mt-4">
+
+      <div class="col-2">
+        <h6>TRABAJO EN EQUIPO</h6>
+        <div class="progress-circle progress-90"><span>90</span></div>
+      </div>
+      <div class="col-2">
+        <h6>TRABAJO EN EQUIPO</h6>
+        <div class="progress-circle progress-75"><span>75</span></div>
+      </div>
+      <div class="col-2">
+        <h6>TRABAJO EN EQUIPO</h6>
+        <div class="progress-circle progress-30"><span>30</span></div>
+      </div>
+
     </div>
   </section>
+
+ 
   <!-- Fin barras de Habilidades -->
 
   <!-- Proyectos realizados -->
   <section>
     <hr color="black" size="5">
     <div class="card mb-3 my-3 mx-3 ">
-      <h3 style="text-align:center; margin-top: 20px;">Proyectos Realizados</h3>
+      <h3 style="text-align:center; margin-top: 20px;">Proyectos Realizados <i class="bi bi-pencil-fill btn"
+          data-bs-toggle="modal" data-bs-target="#ProyectosRealizados"></i></h3>
       <!-- Proyecto 1 -->
       <div class="container mt-3">
         <div class="row">
           <div class="col-4 mb-3">
-            <div class="card" style="width: 18rem;">
-              <img src="ASSETS/img/Proyecto-1.jpg" class="card-img-top" alt="..."><i class="bi bi-pencil-fill btn"></i>
+            <div class="card" style="width: 18rem;"><i class="bi bi-trash btn"></i>
+              <img src="ASSETS/img/Proyecto-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Porfolio Personal<i class="bi bi-pencil-fill btn"></i></h5>
+                <h5 class="card-title">Porfolio Personal</h5>
                 <p class="card-text">Porfolio personal realizado como trabajo final en el curso Argentina Programa en el
-                  año 2022 <i class="bi bi-pencil-fill btn"></i></p><br><br><br>
-                <a href="#" class="btn btn-primary">Ver Más</a><i class="bi bi-pencil-fill btn"></i>
+                  año 2022 </p><br><br><br>
+                <a href="#" class="btn btn-primary">Ver Más</a>
               </div>
             </div>
           </div>
           <!-- Proyecto 2 -->
           <div class="col-4 mb-3">
-            <div class="card" style="width: 18rem;">
-              <img src="ASSETS/img/Proyecto-2.jpg" class="card-img-top" alt="..."><i class="bi bi-pencil-fill btn"></i>
+            <div class="card" style="width: 18rem;"><i class="bi bi-trash btn"></i>
+              <img src="ASSETS/img/Proyecto-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">PsicoAlem<i class="bi bi-pencil-fill btn"></i></h5>
+                <h5 class="card-title">PsicoAlem</h5>
                 <p class="card-text">Esta página se realizó en el año 2012 y en la actualidad no se encuentra en linea,
-                  ya que en la misma se utilizó Flash y este no es compatible con los navegadores actuales.<i class="bi bi-pencil-fill btn"></i></p>
-                <a href="#" class="btn btn-primary">Ver Más</a><i class="bi bi-pencil-fill btn"></i>
+                  ya que en la misma se utilizó Flash y este no es compatible con los navegadores actuales.
+                </p>
+                <a href="#" class="btn btn-primary">Ver Más</a>
               </div>
             </div>
           </div>
           <!-- Proyecto 3 -->
           <div class="col-4 mb-3">
-            <div class="card" style="width: 18rem;">
-              <img src="ASSETS/img/Proyecto-3.jpg" class="card-img-top" alt="..."><i class="bi bi-pencil-fill btn"></i>
+            <div class="card" style="width: 18rem;"><i class="bi bi-trash btn"></i>
+              <img src="ASSETS/img/Proyecto-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Coaching<i class="bi bi-pencil-fill btn"></i></h5>
+                <h5 class="card-title">Coaching</h5>
                 <p class="card-text">Pagina en desarrollo utilizando Word Press, en la que se ofrecera un acompañamiento
-                  en el desarrollo laboral y personal. La misma no se encuentra en linea por el momento.<i class="bi bi-pencil-fill btn"></i></p> <br>
-                <a href="#" class="btn btn-primary">Ver Más</a><i class="bi bi-pencil-fill btn"></i>
+                  en el desarrollo laboral y personal. La misma no se encuentra en linea por el momento.
+                </p> <br>
+                <a href="#" class="btn btn-primary">Ver Más</a>
               </div>
             </div>
           </div>
@@ -482,7 +520,6 @@
     <!-- Copyright -->
   </footer>
 
-
   <!-- Modal del loguin -->
   <div class="modal fade" id="loguinModal" tabindex="-1" aria-labelledby="loguinModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -491,7 +528,6 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-
           <!-- Diseño de loguin -->
           <div class="container w-100 bg-primary mt-5 rounded shadow">
             <div class="row aling-items-stretch">
@@ -527,11 +563,316 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <!-- Fin de loguin -->
 
-      <!-- JavaScript Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+  <!-- BANNER -->
+  <div class="modal fade" id="Banner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Subir una Imagen <br>
+            <p style="font-size: 10px;">Resolución recomendada 1024px x 1024px</p>
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="row">
+            <div class="col ">
+              <label for="formFile" class="form-label">Imagen</label>
+              <input class="form-control" type="file" id="formFile">
+              <button type="button" class="btn btn-primary mt-2">Subir</button>
+              <button type="button" class="btn btn-secondary mt-2" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIN BANNER -->
+
+
+  <!-- MODALES DATOS PERSONALES -->
+  <!-- Cambiar Imagen -->
+  <div class="modal fade" id="Foto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Subir una Foto Personal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col ">
+              <label for="formFile" class="form-label">Imagen</label>
+              <input class="form-control" type="file" id="formFile">
+              <button type="button" class="btn btn-primary mt-2">Subir</button>
+              <button type="button" class="btn btn-secondary mt-2" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Cambiar Imagen -->
+
+  <!-- Estudios Realizados -->
+  <div class="modal fade" id="DatosAcademicos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Agregar o Quitar Estudios</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Primer Estudio
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">Primer Estudio</button>
+              <button type="button" class="list-group-item list-group-item-action">Primer Estudio</button>
+              <button type="button" class="list-group-item list-group-item-action">Primer Estudio</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled>Primer Estudio</button>
+            </div>
+          </div>
+
+          <br>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 60px"></textarea>
+            <label for="floatingTextarea2">Descripcíon Académica</label><br>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Eliminar</button>
+          <button type="button" class="btn btn-primary">Nueva Estudio</button>
+          <button type="button" class="btn btn-primary">Guardar Todo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Datos Personales -->
+  <div class="modal fade" id="DatosPersonal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Datos Personales</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido"><br>
+              <input type="text" class="form-control" placeholder="Fecha de Nacimiento" aria-label="Fecha Nac"><br>
+              <input type="text" class="form-control" placeholder="Lugar de Residencia" aria-label="Residencia"><br>
+              <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre/s" aria-label="Nombre"><br>
+              <input type="text" class="form-control" placeholder="Edad" aria-label="Edad"><br>
+              <input type="text" class="form-control" placeholder="Nacionalidad" aria-label="Nacionalidad"><br>
+              <input type="text" class="form-control" placeholder="Telefono" aria-label="Telefono">
+            </div>
+          </div><br>
+          <div class="col">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Descripcion Personal</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Nueva Informacion</button>
+            <button type="button" class="btn btn-primary">Guardar Todo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Datos Personales -->
+
+  <!-- TRABAJOS -->
+  <div class="modal fade" id="ExperienciaLaboral" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Agregar o Quitar Empleos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Trabajo X
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">Trabajo 1</button>
+              <button type="button" class="list-group-item list-group-item-action">Trabajo 2</button>
+              <button type="button" class="list-group-item list-group-item-action">Trabajo 3</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled>Trabajo 4</button>
+            </div>
+          </div>
+
+          <div class="col ">
+            <label for="formFile" class="form-label">Imagen</label>
+            <input class="form-control" type="file" id="formFile">
+          </div><br>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 60px"></textarea>
+            <label for="floatingTextarea2">Descripcíon del Empleo</label><br>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Eliminar</button>
+          <button type="button" class="btn btn-primary">Nueva Trabajo</button>
+          <button type="button" class="btn btn-primary">Guardar Todo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIN TRABAJO-->
+
+  <!-- Proyectos realizados -->
+  <div class="modal fade" id="ProyectosRealizados" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Agregar o Quitar Proyectos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Proyecto 1
+              </button>
+              <button type="button" class="list-group-item list-group-item-action"> Proyecto 2</button>
+              <button type="button" class="list-group-item list-group-item-action"> Proyecto 3</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled> Proyecto 4</button>
+            </div>
+          </div>
+          <div class="col mb-2">
+            <label for="formFile" class="form-label">Imagen</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="form-floating mb-2">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 60px"></textarea>
+            <label for="floatingTextarea2">Titulo del Proyecto</label>
+          </div>
+          <div class="form-floating mb-2">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 60px"></textarea>
+            <label for="floatingTextarea2">Descripcíon del Proyecto</label>
+          </div>
+          <div class="form-floating mt-0">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 60px"></textarea>
+            <label for="floatingTextarea2">URL donde se aloja el proyecto</label><br>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Eliminar</button>
+          <button type="button" class="btn btn-primary">Nueva Proyecto</button>
+          <button type="button" class="btn btn-primary">Guardar Todo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin proyectos realizados -->
+
+  <!-- Habilidades -->
+  <!-- Sofware -->
+  <div class="modal fade" id="HabilidadesSoftware" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Agregar o Quitar Habilidad en Sofware</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Habilidad-1
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-2</button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-3</button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-4</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled>Habilidad-5</button>
+            </div>
+          </div>
+          <br>
+          <div class="col w-25 mx-3">
+            <label for="validationDefault05" class="form-label">% Aprendizaje</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Eliminar</button>
+          <button type="button" class="btn btn-primary">Nuevo Habilidad</button>
+          <button type="button" class="btn btn-primary">Guardar Todo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Sofware -->
+  <!-- RRHH -->
+  <div class="modal fade" id="HabilidadesRRHH" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Agregar o Quitar Habilidad en RRHH</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Habilidad-1
+              </button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-2</button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-3</button>
+              <button type="button" class="list-group-item list-group-item-action">Habilidad-4</button>
+              <button type="button" class="list-group-item list-group-item-action" disabled>Habilidad-5</button>
+            </div>
+          </div>
+          <br>
+          <div class="col w-25 mx-3">
+            <label for="validationDefault05" class="form-label">% Aprendizaje</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">Eliminar</button>
+          <button type="button" class="btn btn-primary">Nueva Habilidad</button>
+          <button type="button" class="btn btn-primary">Guardar Todo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin RRHH -->
+  <!-- Fin de Habilidades -->
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
